@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viacheslav Dubinski - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="left-side">
+                <div class="left-side-title">
+                    <h1>Dubinski<span> Viacheslav</span></h1>
+                    <p>Junior Frontend Developer</p>
+                </div>
+                <figure class="photo">
+                    <img src="img/photo.jpg" width="400" height="350" alt="Photo of Viacheslav Dubinski">
+                </figure>
+                <section class="about-me">
+                    <h3>ABOUT ME</h3>
+                    <p>I'm 24 years old. I'm passionate about web development and currently learning frontend technologies. I want to become a professional software developer and create modern web applications.</p>
+                    <p class="strengths">My strengths:</p>
+                    <ul class="strengths-wrapper">
+                        <li class="strengths-item">Quick learner</li>
+                        <li class="strengths-item">Attention to detail</li>
+                        <li class="strengths-item">Problem solver</li>
+                        <li class="strengths-item">Team player</li>
+                    </ul>
+                </section>
+                <div class="divider-white"></div>
+                <section class="contacts">
+                    <h3>CONTACTS:</h3>
+                    <ul class="contacts-wrapper">
+                        <li class="contacts-item" id="location">Belarus, Minsk</li>
+                        <li class="contacts-item" id="email"><a href="mailto:dubinski.va@example.com" target="blank">dubinski.va@example.com</a></li>
+                        <li class="contacts-item" id="phone"><a href="tel:+375291234567">+375 (29) 123-45-67</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-side">
+                <div class="divider-black-vertical"></div>
+                <div class="divider-black"></div>
+                <section class="block education">
+                    <h2>Education:</h2>
+                    <p>Courses and training:</p>
+                    <ul class="courses-wrapper">
+                        <li class="courses-item">EPAM: Frontend Development Course (until 06.12.2025)</li>
+                        <li class="courses-item">FreeCodeCamp: Responsive Web Design</li>
+                        <li class="courses-item">Belarusian State University: Computer Science (in process...)</li>
+                    </ul>
+                </section>
+                <section class="block skills">
+                    <h2>Skills:</h2>
+                    <ul class="skills-wrapper">
+                        <li class="skills-item">HTML5</li>
+                        <li class="skills-item">CSS3</li>
+                        <li class="skills-item">JavaScript</li>
+                        <li class="skills-item">Git (in process...)</li>
+                    </ul>
+                </section>
+                <section class="block language">
+                    <h2>Languages:</h2>
+                    <ul class="language-wrapper">
+                        <li class="language-item">Russian - Native</li>
+                        <li class="language-item">English - Intermediate (I've been studying it with a tutor)</li>
+                    </ul>
+                </section>
+                <section class="block projects">
+                    <h2>Projects:</h2>
+                    <ul class="projects-wrapper">
+                        <li class="projects-item">
+                            <a href="https://github.com/vdubinski/portfolio" target="blank">Portfolio Website</a> - My first responsive website
+                        </li>
+                        <li class="projects-item">
+                            <a href="https://github.com/vdubinski/todo-app" target="blank">Todo List App</a> - Simple JavaScript application
+                        </li>
+                        <li class="projects-item">
+                            <a href="https://github.com/vdubinski/weather-app" target="blank">Weather App</a> - API based weather application
+                        </li>
+                    </ul>
+                </section>
+                <section class="block code">
+                    <h2>Code example:</h2>
+                    <p>Simple function to check if a number is even:</p>
+                    <pre><code class="language-javascript">
+function isEven(number) {
+    if (number % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isEven(4));
+console.log(isEven(7));
+                    </code></pre>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <a class="footer-github" href="https://github.com/DubinskyVyacheslav/CV" target="blank">My GitHub</a>
+            <p class="footer-year">2025</p>
+            <a class="footer-course" href="https://learn.epam.com/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e" target="blank">
+                EPAM Course
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
